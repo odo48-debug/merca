@@ -2,7 +2,7 @@ import os
 import streamlit as st
 
 # Configuración de título y subtítulo
-st.subheader("Bienvenido a tu asistente de compras en Mercadona 🛒")
+st.subheader("Bienvenido a tu planificador de compras en Mercadona 🛒")
 
 # Inicializar variables de sesión si no existen
 if "nombre" not in st.session_state:
